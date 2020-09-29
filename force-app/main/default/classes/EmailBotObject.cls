@@ -86,4 +86,3 @@ public with sharing class EmailBotObject {
         return (EmailBotObject) System.JSON.deserialize(json, EmailBotObject.class);
     }
 }
-

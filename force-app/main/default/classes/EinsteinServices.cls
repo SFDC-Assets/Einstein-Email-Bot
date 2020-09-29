@@ -1,6 +1,5 @@
 public with sharing class EinsteinServices {
 
-    // some defaults that are available in the SDO
     public static String DEFAULT_NER_MODEL_ID = 'NER7';
     public static String DEFAULT_INTENT_MODEL_ID = 'O5F46QIAFVWW3EGWLCZCNVIVIU';
     public static String DEFAULT_SENTIMENT_MODEL_ID = 'DB2SAIBGKYZBDIY4MUWJZV7D2Y';
@@ -103,5 +102,3 @@ public with sharing class EinsteinServices {
         return prediction;
     }
 }
-
-

@@ -114,5 +114,3 @@ public with sharing class EmailToCaseUtility {
         return con;
     }
 }
-
-
