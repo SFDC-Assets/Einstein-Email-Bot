@@ -272,7 +272,7 @@
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>BDP_Shipment__c</object>
+        <object>Shipment__c</object>
         <sortField>ETA_Date__c</sortField>
         <sortOrder>Desc</sortOrder>
         <storeOutputAutomatically>true</storeOutputAutomatically>

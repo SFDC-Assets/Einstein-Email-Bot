@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Actual_Sail_Date__c</columns>
+    <columns>Booking_Request_Status__c</columns>
+    <columns>Account__c</columns>
+    <columns>ETA_Date__c</columns>
+    <columns>External_Doc_Cutoff_Date__c</columns>
+    <columns>Sail_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

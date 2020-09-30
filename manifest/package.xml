@@ -8,7 +8,21 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
+		<members>Email_Bot_Setting__mdt.Case_Origin__c</members>
+		<members>Email_Bot_Setting__mdt.Case_Status__c</members>
+		<members>Email_Bot_Setting__mdt.Intent_Model_ID__c</members>
+		<members>Email_Bot_Setting__mdt.NER_Model_ID__c</members>
+		<members>Email_Bot_Setting__mdt.Sentiment_Model_ID__c</members>
+		<members>Email_Bot_Setting__mdt.Support_Queue_ID__c</members>
+		<members>Shipment__c.Account__c</members>
+		<members>Shipment__c.ETA_Date__c</members>
+		<members>Shipment__c.Opportunity__c</members>
+		<members>Shipment__c.Status__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
 		<members>Email_Bot_Setting__mdt</members>
+		<members>Shipment__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
