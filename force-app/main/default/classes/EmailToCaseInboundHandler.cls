@@ -24,7 +24,7 @@ global class EmailToCaseInboundHandler implements Messaging.InboundEmailHandler 
                 + e.getStackTraceString()
             );
         }
-
+        System.debug('Flow has COMPLETED');
         // if Create_Case == true, there was no auto-reply and the case gets created
         if((Boolean)myFlow.getVariableValue('Create_Case')) {
             System.debug('Had to create a case');
