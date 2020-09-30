@@ -7,7 +7,7 @@ global class EmailToCaseInboundHandler implements Messaging.InboundEmailHandler 
             Messaging.InboundEnvelope envelope
     ) {
         // create apex object and grab intent
-        EmailObject eo = new EmailObject(email);
+        EmailBotObject eo = new EmailBotObject(email);
 
         // assign email object to flow variable and start flow
         Map<String, Object> myMap = new Map<String, Object>();
@@ -23,26 +23,6 @@ global class EmailToCaseInboundHandler implements Messaging.InboundEmailHandler 
                 + '\n' 
                 + e.getStackTraceString()
             );
-        }
-        
-        System.debug('Flow has COMPLETED');
-
-        if((Boolean)myFlow.getVariableValue('Found_Contact')) {
-            System.debug('FLOW: Found Contact');
-        } else {
-            System.debug('Did not find Contact');
-        }
-
-        if((Boolean)myFlow.getVariableValue('Found_Shipment')) {
-            System.debug('FLOW: Found Shipment');
-        } else {
-            System.debug('Did not find Shipment');
-        }
-
-        if((Boolean)myFlow.getVariableValue('Email_Send_Success')) {
-            System.debug('FLOW: Email Send Success');
-        } else {
-            System.debug('Email send was not a success');
         }
 
         // if Create_Case == true, there was no auto-reply and the case gets created
