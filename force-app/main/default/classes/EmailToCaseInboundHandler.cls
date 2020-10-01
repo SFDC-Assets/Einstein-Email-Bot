@@ -28,7 +28,8 @@ global class EmailToCaseInboundHandler implements Messaging.InboundEmailHandler 
         // if Create_Case == true, there was no auto-reply and the case gets created
         if((Boolean)myFlow.getVariableValue('Create_Case')) {
             System.debug('Had to create a case');
-            EmailToCaseUtility.createCase(email);
+            Case newCase = (Case)myFlow.getVariableValue('New_Case');
+            EmailToCaseUtility.createCase(email, newCase);
         } else {
             System.debug('Did not create a case');
         }
