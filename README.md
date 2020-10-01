@@ -27,3 +27,6 @@ This is an example of how to make an Email Bot in Salesforce.
  - **`Create_Case`** - Boolean - defaults to true. If you do not want a case created from the email, set this to false.
  - **`New_Case`** - Case - fields filled out in this Case record will be used to create a case in  `EmailToCaseUtility`
  - **`Received_Email`** - EmailBotObject - holds all of the email information and Einstein results.
+
+ ## License
+ [MIT](https://github.com/iiretepii/Einstein-Email-Bot/blob/master/LICENSE)
