@@ -17,34 +17,9 @@
                 <label>New Offer Request</label>
             </value>
             <value>
-                <fullName>Pending Booking from SSL</fullName>
-                <default>false</default>
-                <label>Pending Booking from SSL</label>
-            </value>
-            <value>
-                <fullName>Booking Received In Audit</fullName>
-                <default>false</default>
-                <label>Booking Received In Audit</label>
-            </value>
-            <value>
                 <fullName>Booking Confirmed with Carrier</fullName>
                 <default>false</default>
                 <label>Booking Confirmed with Carrier</label>
-            </value>
-            <value>
-                <fullName>BL OUT</fullName>
-                <default>false</default>
-                <label>BL OUT</label>
-            </value>
-            <value>
-                <fullName>BL RETRIEVAL</fullName>
-                <default>false</default>
-                <label>BL RETRIEVAL</label>
-            </value>
-            <value>
-                <fullName>BL BACK</fullName>
-                <default>false</default>
-                <label>BL BACK</label>
             </value>
             <value>
                 <fullName>Closings</fullName>

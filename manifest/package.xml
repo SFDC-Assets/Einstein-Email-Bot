@@ -26,8 +26,16 @@
 		<name>CustomObject</name>
 	</types>
 	<types>
+		<members>Shipment__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
 		<members>Email_Bot</members>
 		<name>Flow</name>
+	</types>
+	<types>
+		<members>Shipment__c-Shipment Layout</members>
+		<name>Layout</name>
 	</types>
 	<version>49.0</version>
 </Package>

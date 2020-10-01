@@ -337,7 +337,7 @@
     <variables>
         <description>Email received from the email service along with the Einstein side carts</description>
         <name>Received_Email</name>
-        <apexClass>EmailBotObject</apexClass>
+        <apexClass>null__NotFound</apexClass>
         <dataType>Apex</dataType>
         <isCollection>false</isCollection>
         <isInput>true</isInput>
