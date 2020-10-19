@@ -1,7 +1,13 @@
 
 # Email Bot in Salesforce
 
-This is an example of how to make an Email Bot in Salesforce.
+I wrote a some Apex to handle inbound emails and send them to a flow, which allows admins to manage logic around inbound emails. This specific example is for a service use-case where an admin wanted to send an auto-reply with order information when a customer asks about order status.
+
+## Flow Variables
+
+ - **`Create_Case`** - Boolean - defaults to true. If you do not want a case created from the email, set this to false. There is some apex written (`EmailToCaseUtility`) to save binary attachments and email information to the case that is created.
+ - **`New_Case`** - Case - fields filled out in this Case record will be used to create a case in  `EmailToCaseUtility`
+ - **`Received_Email`** - EmailBotObject - holds all of the email information (from address, to addresses, text body, subject... etc) as well as results from Einstein Intent and Sentiment.
 
 ## Installation Instructions
 
@@ -21,12 +27,6 @@ This is an example of how to make an Email Bot in Salesforce.
  6. Entity Recognition: for testing purposes I used `NER7`.
  7. For testing, create a custom email service that uses the inbound email handler.
  8. Ship it ⚓️
-
-## Flow Variables
-
- - **`Create_Case`** - Boolean - defaults to true. If you do not want a case created from the email, set this to false.
- - **`New_Case`** - Case - fields filled out in this Case record will be used to create a case in  `EmailToCaseUtility`
- - **`Received_Email`** - EmailBotObject - holds all of the email information and Einstein results.
 
  ## License
  [MIT](https://github.com/iiretepii/Einstein-Email-Bot/blob/master/LICENSE)
