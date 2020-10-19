@@ -9,6 +9,17 @@ I wrote a some Apex to handle inbound emails and send them to a flow, which allo
  - **`New_Case`** - Case - fields filled out in this Case record will be used to create a case in  `EmailToCaseUtility`
  - **`Received_Email`** - EmailBotObject - holds all of the email information (from address, to addresses, text body, subject... etc) as well as results from Einstein Intent and Sentiment.
 
+ ## Custom Metadata Type
+
+ When you create a new instance of the custom metadata, the code is looking for one called "Email Bot".
+
+- **`Case Origin`** - When case is created, this value will populate to the Case Origin field.
+- **`Case Status`** - When case is created, this value will be populated to the Case Status field.
+- **`Intent Model ID`** - ID for Einstein Intent model.
+- **`NER Model ID`** - Entity Recognition isn't included in this version, but the infrastructure is there. This defaults to `NER7`.
+- **`Sentiment Model ID`** - ID for Einstein Sentiment model. This defaults to the `CommunitySentiment` model.
+Support Queue ID
+
 ## Installation Instructions
 
 **Pre-requisites**
