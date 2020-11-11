@@ -1,7 +1,12 @@
 
 # Email Bot in Salesforce
 
-This solution offers an email-to-flow functionality. The Apex will accept an email, convert the email to an Apex Object, retrieve intent, sentiment and NER from Einstein Platform Services, and start a flow that includes the email and Einstein information. This allows admins to manage logic around inbound emails. For this specific example, an admin wanted to send an auto-reply email with order information when a customer asks about order status.
+This project includes everything you need to deliver Email-To-Flow functionality for Salesforce. This functionality makes it easy to build email response automation with no code in a Salesforce org.
+
+In the source provided, Apex will first recieve an incoming email, convert that email into an Apex Object, and then determine all of the intent, sentiment, and [NER](https://en.wikipedia.org/wiki/Named-entity_recognition) using [Einstein Platform Services](https://developer.salesforce.com/developer-centers/ein-platform/) before kick-starting a [Flow](https://help.salesforce.com/articleView?id=flow_builder.htm&language=en_us&r=https%3A%2F%2Fwww.google.com%2F&type=5) with the email and Einstein insight in tow. 
+
+This allows admins to manage logic around inbound emails. For this specific example, an admin wanted to send an auto-reply email with order information when a customer asks about order status.
+
 ![Email Bot Design Diagram](/diagrams/design.png)
 
 ## Flow Variables
