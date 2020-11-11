@@ -1,5 +1,9 @@
-// https://sforcehacks.blogspot.com/2012/01/email-to-case-custom-email-handler.html?m=1
-
+/*
+ * Copyright (c) 2020, salesforce.com, inc.
+ * All rights reserved.
+ * SPDX-License-Identifier: BSD-3-Clause
+ * For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+ */
 global class EmailToCaseInboundHandler implements Messaging.InboundEmailHandler {
 
     global Messaging.InboundEmailResult handleInboundEmail(
