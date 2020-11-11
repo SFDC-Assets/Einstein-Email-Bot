@@ -44,4 +44,4 @@ Support Queue ID
  8. Ship it ⚓️
 
  ## License
- [MIT](https://github.com/iiretepii/Einstein-Email-Bot/blob/master/LICENSE)
+ [BSD-3-Clause License](https://github.com/iiretepii/Einstein-Email-Bot/blob/master/LICENSE)
