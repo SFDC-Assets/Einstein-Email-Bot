@@ -1,7 +1,7 @@
 
 # Email Bot in Salesforce
 
-I wrote a some Apex to handle inbound emails and send them to a flow, which allows admins to manage logic around inbound emails. This specific example is for a service use-case where an admin wanted to send an auto-reply with order information when a customer asks about order status.
+This solution offers an email-to-flow functionality. The Apex will accept an email, convert the email to an Apex Object, retrieve intent, sentiment and NER from Einstein Platform Services, and start a flow that includes the email information. This allows admins to manage logic around inbound emails. For this specific example, an admin wanted to send an auto-reply email with order information when a customer asks about order status.
 
 ## Flow Variables
 
@@ -22,7 +22,7 @@ Support Queue ID
 
 ## Installation Instructions
 
-**Pre-requisites**
+**Install has dependency on these Managed Packages**
 
  1. [Unofficial SF - Flow Base Components](https://unofficialsf.com/introducing-flowbasecomponents/)    
  2. [Unofficial SF - Send Better Email Flow Action](https://unofficialsf.com/send-better-email-flow-action/)
