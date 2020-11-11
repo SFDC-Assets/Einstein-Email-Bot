@@ -32,8 +32,7 @@ Support Queue ID
 
  1. Install the [Unofficial SF - Flow Base Components](https://unofficialsf.com/introducing-flowbasecomponents/) and [Unofficial SF - Send Better Email Flow Action](https://unofficialsf.com/send-better-email-flow-action/) unmanaged packages. This will give the bot the ability to send emails using email templates from a Flow. While installing both of these unmanaged packages, there's an advanced settings tab in the package installation prompt for each one, make sure you select "Compile Only Apex in the Package".
  2. Install [Einstein Playground App](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000Ed1V8UAJ)
- 3. Install code and configuration from this GitHub repo [using DX](https://medium.com/@abarnes26/how-to-connect-vscode-to-a-salesforce-org-the-easy-way-11baa8dc351b) or the button below.
- <a href="https://githubsfdeploy.herokuapp.com?owner=iiretepii&repo=Einstein-Email-Bot">
+ 3. Install code and configuration from this GitHub repo [using DX](https://medium.com/@abarnes26/how-to-connect-vscode-to-a-salesforce-org-the-easy-way-11baa8dc351b) or the button below. <a href="https://githubsfdeploy.herokuapp.com?owner=iiretepii&repo=Einstein-Email-Bot">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
